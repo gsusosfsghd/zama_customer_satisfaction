@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Production
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Misc
+.DS_Store
+*.pem
+.env
+.env*.local
+.vercel
+
+# Debug
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Hardhat
+cache/
+artifacts/
+typechain-types/
+coverage/
+coverage.json
+
+# Hardhat Ignition
+ignition/deployments/chain-31337/
+ignition/deployments/chain-11155111/
+
+# Hardhat node
+hardhat_chain.json
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# FHEVM temp files
+fhevmTemp/
+
+# Deployment artifacts (keep structure, ignore generated)
+deployments/*/solcInputs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
